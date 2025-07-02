@@ -33,10 +33,10 @@
         <div class="grid md:grid-cols-3 gap-6 bg-neutral-50/80 backdrop-blur-lg rounded-2xl p-6 border border-neutral-200">
           <div class="md:col-span-2 space-y-6">
             <div class="flex flex-wrap gap-3 mb-6">
-              <button :class="{'bg-[#28391F] text-white border-b-4 border-[#1a2614]': loanType === 'short', 'text-neutral-600 hover:text-[#28391F]': loanType !== 'short'}" 
+              <button :class="{'bg-[#28391F] text-white border-b-4 border-[#1a2614] cursor-pointer': loanType === 'short', 'text-neutral-600 hover:text-[#28391F] cursor-pointer': loanType !== 'short'}" 
                       class="px-5 py-2 rounded-full font-semibold transition-colors" 
                       @click="loanType = 'short'">SHORT TERM LOANS</button>
-              <button :class="{'bg-[#28391F] text-white border-b-4 border-[#1a2614]': loanType === 'personal', 'text-neutral-600 hover:text-[#28391F]': loanType !== 'personal'}" 
+              <button :class="{'bg-[#28391F] text-white border-b-4 border-[#1a2614]  cursor-pointer': loanType === 'personal', 'text-neutral-600 hover:text-[#28391F] cursor-pointer': loanType !== 'personal'}" 
                       class="px-5 py-2 rounded-full font-semibold transition-colors" 
                       @click="loanType = 'personal'">PERSONAL LOANS</button>
             </div>
@@ -118,7 +118,7 @@
             </div>
             <div class="pt-5">
               <button @click="calculateEMI" 
-                      class="bg-[#ff0] hover:bg-yellow-300 text-[#28391F] px-6 py-3 rounded-full text-base font-semibold transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105">
+                      class="bg-[#ff0] cursor-pointer hover:bg-yellow-300 text-[#28391F] px-6 py-3 rounded-full text-base font-semibold transition-all duration-300 shadow-md hover:shadow-lg transform hover:scale-105">
                 Calculate Loan
               </button>
             </div>

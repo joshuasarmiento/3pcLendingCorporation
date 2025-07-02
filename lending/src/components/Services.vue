@@ -13,9 +13,9 @@
           <h3 class="text-lg font-semibold text-[#28391F] mb-2">Personal Loans</h3>
           <p class="text-neutral-600 mb-4">Flexible options with competitive rates and customizable terms.</p>
           <ul class="text-left text-neutral-600 space-y-2">
-            <li class="flex items-center space-x-2"><span class="w-2 h-2 bg-[#28391F] rounded-full"></span> Quick approval</li>
-            <li class="flex items-center space-x-2"><span class="w-2 h-2 bg-[#28391F] rounded-full"></span> Flexible terms</li>
-            <li class="flex items-center space-x-2"><span class="w-2 h-2 bg-[#28391F] rounded-full"></span> No hidden fees</li>
+            <li class="flex items-center gap-2"><CircleCheck /> Quick approval</li>
+            <li class="flex items-center gap-2"><CircleCheck /> Flexible terms</li>
+            <li class="flex items-center gap-2"><CircleCheck /> No hidden fees</li>
           </ul>
         </div>
         <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
@@ -26,10 +26,10 @@
           </div>
           <h3 class="text-lg font-semibold text-[#28391F] mb-2">Business Loans</h3>
           <p class="text-neutral-600 mb-4">Financing solutions to grow your enterprise with competitive terms.</p>
-          <ul class="text-left text-neutral-600 space-y-2">
-            <li class="flex items-center space-x-2"><span class="w-2 h-2 bg-[#28391F] rounded-full"></span> Working capital</li>
-            <li class="flex items-center space-x-2"><span class="w-2 h-2 bg-[#28391F] rounded-full"></span> Equipment financing</li>
-            <li class="flex items-center space-x-2"><span class="w-2 h-2 bg-[#28391F] rounded-full"></span> Expansion loans</li>
+          <ul class="text-center text-neutral-600 space-y-2">
+            <li class="flex items-center gap-2"><CircleCheck /> Working capital</li>
+            <li class="flex items-center gap-2"><CircleCheck /> Equipment financing</li>
+            <li class="flex items-center gap-2"><CircleCheck /> Expansion loans</li>
           </ul>
         </div>
       </div>
@@ -38,4 +38,5 @@
 </template>
 
 <script setup>
+import { CircleCheck } from "lucide-vue-next"
 </script>
