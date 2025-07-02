@@ -16,7 +16,7 @@
     <CTA />
   </div>
   <div class="mx-auto overflow-x-hidden max-w-screen-xl">
-    <Contact />
+    <Contact :showModal="showModal" @toggle-modal="showModal = $event"/>
   </div>
   <div class="mx-auto overflow-x-hidden max-w-screen-xl">
     <Footer />

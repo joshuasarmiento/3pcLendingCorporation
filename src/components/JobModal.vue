@@ -65,19 +65,26 @@ defineEmits(['toggle-modal'])
 }
 
 .modal-content {
-  transition: transform 0.3s ease;
-  transform: translateY(0);
+ transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateY(20px) scale(0.95);  transform: translateY(0);
 }
 
 .modal-enter-active,
 .modal-leave-active {
   .modal-content {
-    transform: translateY(-20px);
+    transform: translateY(0) scale(1);
+  opacity: 1;
   }
 }
 
 .modal-enter-from,
 .modal-leave-to {
+  opacity: 0;
+}
+
+.modal-enter-from .modal-content,
+.modal-leave-to .modal-content {
+  transform: translateY(20px) scale(0.95);
   opacity: 0;
 }
 </style>

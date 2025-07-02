@@ -108,7 +108,9 @@
                 <p class="mt-1 text-neutral-400 text-sm">
                   We're thrilled to announce that we're expanding our team and looking for talented individuals like you to join us.
                 </p>
-                <a class="group mt-2 inline-flex items-center gap-x-2 font-medium text-sm text-[#28391F] decoration-2 hover:underline focus:outline-hidden focus:underline" href="#">
+                <a 
+                  @click="$emit('toggle-modal', true);" 
+                  class="group mt-2 inline-flex items-center gap-x-2 font-medium text-sm text-[#28391F] decoration-2 hover:underline focus:outline-hidden focus:underline" href="#">
                     Job openings
                     <svg class="shrink-0 size-4 transition group-hover:translate-x-0.5 group-focus:translate-x-0.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                       <path d="M5 12h14"></path>
@@ -126,6 +128,10 @@
 
 <script setup>
 import { MapPin, Mail, Phone, Facebook, Megaphone } from 'lucide-vue-next'
+defineProps({
+  showModal: Boolean,
+});
+defineEmits(['toggle-modal']);
 </script>
 
 <style scoped>
