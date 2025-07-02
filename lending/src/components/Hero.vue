@@ -24,7 +24,7 @@
     </div>
     <div class="container mx-auto relative z-10">
       <div class="text-center mb-10">
-        <h1 class="text-3xl md:text-5xl font-bold text-[#28391F] mb-5 leading-tight">Pautang para sa Caramoan</h1>
+        <h1 class="text-3xl md:text-5xl font-bold text-[#28391F] mb-5 leading-tight">Pautang para sa<span class="block sm:hidden"></br></span> Caramoan</h1>
         <p class="text-lg md:text-xl text-neutral-600 mb-2 max-w-xl mx-auto">Simple loan application process at your fingertips.</p>
         <p class="text-base md:text-lg text-neutral-600 max-w-xl mx-auto">Accurate EMI calculations for smarter decisions.</p>
       </div>
