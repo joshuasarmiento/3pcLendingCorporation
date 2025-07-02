@@ -34,19 +34,19 @@
           >
             Services
           </a>
+          <button
+            @click="$emit('toggle-modal', true)"
+            class="text-[#28391F] cursor-pointer text-sm hover:text-yellow-300 transition-colors"
+          >
+            Career
+         </button>
           <a
             href="#contact-us"
             @click.prevent="scrollToSection('contact-us')"
-            class="text-[#28391F] text-sm hover:text-yellow-300 transition-colors"
+            class="group inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-nowrap text-[#28391F] rounded-full focus:outline-none hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105"
           >
-            Contact Us
+            Apply Now
           </a>
-          <button
-            @click="$emit('toggle-modal', true)"
-            class="group cursor-pointer inline-flex items-center gap-x-2 py-2 px-3 bg-[#ff0] font-medium text-sm text-nowrap text-[#28391F] rounded-full focus:outline-none hover:bg-yellow-300 transition-all duration-300 transform hover:scale-105"
-          >
-            Job Application
-          </button>
         </div>
 
         <div class="md:hidden">
