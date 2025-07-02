@@ -123,7 +123,7 @@
               </button>
             </div>
           </div>
-          <div class="bg-gradient-to-br from-[#28391F] to-[#1f291a] rounded-xl p-5 text-white flex flex-col items-center justify-center">
+          <div class="bg-[#28391F] md:bg-gradient-to-br from-[#28391F] to-[#1f291a] rounded-xl p-5 text-white flex flex-col items-center justify-center">
             <div class="text-center mb-5">
               <h3 class="text-base font-semibold text-neutral-300 mb-2">Monthly EMI</h3>
               <div class="text-3xl font-bold">{{ emiResult ? emiResult.toFixed(2) + ' ₱' : '0.00 ₱' }}</div>

@@ -3,7 +3,7 @@
     class="fixed top-4 inset-x-0 z-50 w-full max-w-5xl mx-auto flex flex-wrap md:justify-start md:flex-nowrap before:absolute before:inset-0 before:rounded-[26px] before:bg-[#28391F]/20 before:backdrop-blur-md">
     <nav
       class="relative w-full flex flex-wrap md:flex-nowrap basis-full items-center justify-between py-2 px-5 md:py-2">
-      <div class="p-1 bg-gradient-to-br from-[#04A54B] to-[#28391F] rounded-lg flex items-center justify-center">
+      <div class="p-1 bg-[#28391F] md:bg-gradient-to-br from-[#04A54B] to-[#28391F] rounded-lg flex items-center justify-center">
         <img src="../assets/logo.png" class="h-8 w-auto" alt="3PC Lending Logo">
       </div>
 

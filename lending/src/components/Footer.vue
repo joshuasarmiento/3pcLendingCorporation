@@ -4,7 +4,7 @@
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
           <div class="flex items-center justify-center md:justify-start space-x-3 mb-4">
-            <div class="p-2 bg-gradient-to-br from-[#04A54B] to-[#28391F] rounded-lg flex items-center justify-center">
+            <div class="p-2 bg-[#28391F] md:bg-gradient-to-br from-[#04A54B] to-[#28391F] rounded-lg flex items-center justify-center">
               <img src="../assets/logo.png" class="h-8 w-auto" alt="3PC Lending Logo">
             </div>
           </div>
