@@ -5,7 +5,7 @@
         <div class="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-[#28391F] to-neutral-800 rounded-full mb-3">
           <CheckCircle class="w-7 h-7 text-white" />
         </div>
-        <h2 class="text-3xl font-bold bg-gradient-to-r from-[#28391F] to-neutral-800 bg-clip-text text-transparent mb-2">WE ARE HIRING</h2>
+        <h2 class="text-3xl font-bold bg-[#28391F] md:bg-gradient-to-r from-[#28391F] to-neutral-800 bg-clip-text text-transparent mb-2">WE ARE HIRING</h2>
         <h3 class="text-2xl font-bold text-[#28391F] mb-5">OFFICE CLERK</h3>
       </div>
       <div class="bg-neutral-50 rounded-lg p-5 mb-5">
@@ -35,7 +35,7 @@
         </strong></p>
       </div>
       <button @click="$emit('toggle-modal', false)" 
-              class="w-full bg-gradient-to-r from-[#28391F] to-neutral-800 text-white px-6 py-2 rounded-full hover:bg-[#1a2614] transition-all duration-300 shadow-md hover:shadow-lg font-semibold">
+              class="w-full bg-[#28391F] md:bg-gradient-to-r from-[#28391F] to-neutral-800 text-white px-6 py-2 rounded-full hover:bg-[#1a2614] transition-all duration-300 shadow-md hover:shadow-lg font-semibold">
         Close
       </button>
     </div>
