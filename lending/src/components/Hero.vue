@@ -24,9 +24,9 @@
     </div>
     <div class="container mx-auto relative z-10">
       <div class="text-center mb-10">
-        <h1 class="text-3xl md:text-5xl font-bold text-[#28391F] mb-5 leading-tight">Pautang para sa<span class="block sm:hidden"></br></span> Caramoan</h1>
-        <p class="text-lg md:text-xl text-neutral-600 mb-2 max-w-xl mx-auto">Simple loan application process at your fingertips.</p>
-        <p class="text-base md:text-lg text-neutral-600 max-w-xl mx-auto">Accurate EMI calculations for smarter decisions.</p>
+        <h1 class="text-3xl md:text-5xl font-bold text-[#28391F] mb-5 leading-tight">Your Financial Companion <span class="block sm:hidden"></br></span>is Here!</h1>
+        <p class="text-lg md:text-xl text-neutral-600 mb-2 max-w-xl mx-auto">Quick, easy, and reliable loans tailored for our vibrant community in Caramoan. </p>
+        <p class="text-base md:text-lg text-neutral-600 max-w-xl mx-auto">See how much you can borrow with just a few clicks!</p>
       </div>
       <!-- Loan Calculator -->
       <div id="calculator" class="max-w-5xl mx-auto">

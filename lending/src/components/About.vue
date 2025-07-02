@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="py-16 px-4 sm:px-6 bg-white">
     <div class="container mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl font-bold text-[#28391F] mb-6">About 3PC Lending</h2>
+      <h2 class="text-3xl md:text-4xl font-bold text-[#28391F] mb-6">About <span class="text-yellow-300">3PC</span> Lending</h2>
       <p class="text-neutral-600 mb-10 max-w-2xl mx-auto text-base md:text-lg">Rooted in the heart of Caramoan, Camarines Sur, we provide reliable financial solutions with the warmth and integrity of Bicolano hospitality, supporting our community’s dreams.</p>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
         <div class="bg-neutral-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
