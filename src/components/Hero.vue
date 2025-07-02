@@ -39,6 +39,7 @@
                       class="px-5 py-2 rounded-full font-semibold transition-colors" 
                       @click="loanType = 'personal'">PERSONAL LOANS</button>
             </div>
+            
             <div class="space-y-3">
               <label class="block text-[#28391F] font-semibold text-base">Loan Amount</label>
               <div class="flex items-center gap-3 flex-wrap">
