@@ -2,7 +2,7 @@
   <div v-if="showModal" class="modal fixed inset-0 bg-black/50 flex items-center justify-center p-4 z-50" @click.self="$emit('toggle-modal', false)">
     <div class="modal-content bg-white rounded-2xl p-6 w-full max-w-md">
       <div class="mb-5">
-        <div class="inline-flex items-center justify-center w-14 h-14 bg-gradient-to-br from-[#28391F] to-neutral-800 rounded-full mb-3">
+        <div class="inline-flex items-center justify-center w-14 h-14 bg-[#28391F] md:bg-gradient-to-br from-[#28391F] to-neutral-800 rounded-full mb-3">
           <CheckCircle class="w-7 h-7 text-white" />
         </div>
         <h2 class="text-3xl font-bold bg-[#28391F] md:bg-gradient-to-r from-[#28391F] to-neutral-800 bg-clip-text text-transparent mb-2">WE ARE HIRING</h2>
