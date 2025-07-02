@@ -30,7 +30,9 @@
           <MapPin class="w-4 h-4 text-[#28391F] mr-2" />
           <span class="text-[#28391F] font-medium text-sm">Tawog, Caramoan, Camarines Sur</span>
         </div>
-        <p class="text-neutral-600 text-sm">If interested, send a message on Facebook: <strong class="text-[#28391F]">Roy Pandakila</strong></p>
+        <p class="text-neutral-600 text-sm">If interested, send a message on Facebook: <strong class="text-[#28391F]">
+          <a href="https://www.facebook.com/PandakilaPogi" target="_blank"> Roy Pandakila</a>
+        </strong></p>
       </div>
       <button @click="$emit('toggle-modal', false)" 
               class="w-full bg-gradient-to-r from-[#28391F] to-neutral-800 text-white px-6 py-2 rounded-full hover:bg-[#1a2614] transition-all duration-300 shadow-md hover:shadow-lg font-semibold">
