@@ -23,10 +23,10 @@
         <div>
           <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
           <ul class="space-y-2 text-[#28391F]">
-            <li><a href="#home" class="hover:text-[#ff0] transition-colors">Home</a></li>
-            <li><a href="#about" class="hover:text-[#ff0] transition-colors">About</a></li>
-            <li><a href="#services" class="hover:text-[#ff0] transition-colors">Services</a></li>
-            <li><a href="#contact-us" class="hover:text-[#ff0] transition-colors">Contact</a></li>
+            <li><a href="#home" @click.prevent="scrollToSection('home');" class="hover:text-[#ff0] transition-colors">Home</a></li>
+            <li><a href="#about" @click.prevent="scrollToSection('about');" class="hover:text-[#ff0] transition-colors">About</a></li>
+            <li><a href="#services" @click.prevent="scrollToSection('services');" class="hover:text-[#ff0] transition-colors">Services</a></li>
+            <li><a href="#contact-us" @click.prevent="scrollToSection('contact-us');" class="hover:text-[#ff0] transition-colors">Contact</a></li>
           </ul>
         </div>
         <div>
@@ -44,4 +44,23 @@
 
 <script setup>
 // import { Twitter, Facebook } from 'lucide-vue-next'
+import { ref, inject } from 'vue';
+
+const lenis = inject('lenis');
+
+const scrollToSection = (sectionId) => {
+  if (lenis) {
+    lenis.scrollTo(`#${sectionId}`, {
+      duration: 1.2, // Match Lenis duration from main.js
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      offset: -80, // Adjust for fixed header height
+    });
+  } else {
+    // Fallback to default scroll if Lenis is unavailable
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+};
 </script>

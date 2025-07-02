@@ -57,7 +57,7 @@
                         class="w-full bg-neutral-50 rounded-lg px-4 py-2 text-[#28391F] text-sm focus:outline-none focus:ring-2 focus:ring-[#28391F]"></textarea>
             </div>
             <button type="submit" 
-                    class="w-full bg-[#28391F] md:bg-gradient-to-r text-white from-[#28391F] to-neutral-800 px-6 py-3 rounded-full text-base font-semibold hover:bg-[#1a2614] transition-all duration-300 shadow-md hover:shadow-lg">
+                    class="w-full cursor-pointer bg-[#28391F] md:bg-gradient-to-r text-white from-[#28391F] to-neutral-800 px-6 py-3 rounded-full text-base font-semibold hover:bg-[#272f23] transition-all duration-300 shadow-md hover:shadow-lg">
               Submit
             </button>
           </form>
